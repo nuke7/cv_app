@@ -1,0 +1,11 @@
+.button {
+  background-color: red;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  appearance: none;
+  border-radius: 0;
+  outline: none;
+  cursor: pointer;
+}

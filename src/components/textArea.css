@@ -1,0 +1,8 @@
+.inputArea,
+.textdiv {
+  height: 100%;
+  flex-basis: 50%;
+  border: 1px solid grey;
+  background-color: white;
+  padding: 10px;
+}

@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  height: 100vh;
+  padding: 40px;
+  gap: 40px;
+}
+
+.inputArea,
+.textdiv {
+  height: 100%;
+  flex-basis: 50%;
+  border: 1px solid grey;
+  background-color: white;
+  padding: 10px;
+}
+
+.button {
+  background-color: red;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  appearance: none;
+  border-radius: 0;
+  outline: none;
+  cursor: pointer;
+}
+
+.info_wrapper_cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 250px;
+}
+
+.info_wrapper_cards textarea {
+  max-width: 200px;
+  max-height: 200px;
+  min-width: 100px;
+  min-height: 1em;
+}
