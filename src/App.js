@@ -50,7 +50,10 @@ function App() {
             return (
               <div className="info_wrapper_cards">
                 <h2 key={index}>{elem}</h2>
-                <textarea key={Math.floor(Math.random() * 100)}></textarea>
+                {console.log(Object.values(data.basics)[index])}
+                <textarea key={Math.floor(Math.random() * 100)}>
+                  {Object.values(data.basics)[index]}
+                </textarea>
               </div>
             );
           })}
